@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculadora {
+    background: #1e1e2f;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    width: 300px;
+}
+
+#visor {
+    width: 100%;
+    height: 70px;
+    background: #2d2d3a;
+    color: #00ffcc;
+    text-align: right;
+    font-size: 2.5em;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.botoes button {
+    height: 60px;
+    font-size: 1.4em;
+    border: none;
+    border-radius: 15px;
+    background: #3b3b4f;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.botoes button:hover {
+    background: #50506d;
+    transform: scale(1.05);
+}
+
+.botao-operador {
+    background: #ff6f00;
+    color: #fff;
+}
+
+.botao-operador:hover {
+    background: #ff8f00;
+}
+
+#btigual {
+    background: #00c853;
+    color: #fff;
+    grid-column: span 2;
+}
+
+#btigual:hover {
+    background: #00e676;
+}
+
+#bt0 {
+    grid-column: span 2;
+}
