@@ -52,15 +52,6 @@ body {
     transform: scale(1.05);
 }
 
-.botao-operador {
-    background: #ff6f00;
-    color: #fff;
-}
-
-.botao-operador:hover {
-    background: #ff8f00;
-}
-
 #btigual {
     background: #00c853;
     color: #fff;
